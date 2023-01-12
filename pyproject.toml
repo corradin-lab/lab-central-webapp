@@ -3,7 +3,7 @@
 name = "lab-central-webapp"
 version = "0.1.0"
 description = "Main webapp for common lab pipelines and sub-webapps"
-authors = ["anhoang@wi.mit.edu"]
+authors = ["An Hoang <anhoang@wi.mit.edu>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
