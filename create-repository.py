@@ -62,7 +62,7 @@ setup-post-kedro:
 	cd notebooks; mkdir package exploratory analyses generate_figures && touch package/.gitkeep exploratory/.gitkeep analyses/.gitkeep generate_figures/.gitkeep ;cd ..
  
 setup-nbdev:
-	nbdev_new --repo "{project_name}" --branch master --user "{author_username}" --author "{author_fullname}" --author_email "{author_email}" --description "{project_description}" --nbs_path notebooks/package --lib_path src/{python_package_name}
+	nbdev_new --repo "{project_name}" --branch master --user "{repository_namespace}" --author "{author_fullname}" --author_email "{author_email}" --description "{project_description}" --nbs_path notebooks/package --lib_path src/{python_package_name}
 
 setup-post-nbdev:
 	mv ._gitignore .gitignore

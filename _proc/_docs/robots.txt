@@ -1,0 +1,1 @@
+Sitemap: https://corradin-lab.github.io/lab-central-webapp/sitemap.xml

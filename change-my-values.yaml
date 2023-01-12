@@ -2,13 +2,13 @@
 author_email: anhoang@wi.mit.edu
 author_fullname: An Hoang
 author_username: hoangthienan95
-project_name: test-package-project
-project_human_readable_name: Test package project
-project_description: Example project description
+project_name: lab-central-webapp
+project_human_readable_name: Lab central webapp
+project_description: Main webapp for common lab pipelines and sub-webapps
 copyright_date: 2022
 copyright_holder: An Hoang
 copyright_holder_email: anhoang@wi.mit.edu
 copyright_license: MIT License
-repository_namespace: hoangthienan95
+repository_namespace: corradin-lab
 repository_provider: github.com
 use_precommit: true

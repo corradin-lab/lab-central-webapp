@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "lab-central-webapp"
+  site-url: "https://corradin-lab.github.io/lab-central-webapp"
+  description: "Main webapp for common lab pipelines and sub-webapps"
+  repo-branch: master
+  repo-url: "https://github.com/corradin-lab/lab-central-webapp"
