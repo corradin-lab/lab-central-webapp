@@ -1,0 +1,103 @@
+description: null
+metadata:
+  data_types: []
+  version: 1
+name: HiC_database_generated
+sources:
+  PCHIC_Geschwind_NeuN+_hg38:
+    args:
+      csv_kwargs: &id001
+        sep: "\t"
+      urlpath: /Users/ahoang/Documents/Work/webapp/HIC_database/hg38/PCHIC_Geschwind_NeuN+_hg38
+    description: Fill me in please!
+    driver: csv
+    metadata:
+      citation:
+        citation: Fill me in please!
+        first_author_lastname: Fill me in please!
+        journal: Fill me in please!
+        link: Fill me in please!
+        paper_name: Fill me in please!
+        published_year: Fill me in please!
+    name: PCHIC_Geschwind_NeuN+_hg38
+    parameters: {}
+  PCHIC_Geschwind_NeuN-_hg38:
+    args:
+      csv_kwargs: *id001
+      urlpath: /Users/ahoang/Documents/Work/webapp/HIC_database/hg38/PCHIC_Geschwind_NeuN-_hg38
+    description: Fill me in please!
+    driver: csv
+    metadata:
+      citation:
+        citation: Fill me in please!
+        first_author_lastname: Fill me in please!
+        journal: Fill me in please!
+        link: Fill me in please!
+        paper_name: Fill me in please!
+        published_year: Fill me in please!
+    name: PCHIC_Geschwind_NeuN-_hg38
+    parameters: {}
+  PCHIC_per_tissue_Dorsolateral_Prefrontal_Cortex_hg38:
+    args:
+      csv_kwargs: *id001
+      urlpath: /Users/ahoang/Documents/Work/webapp/HIC_database/hg38/PCHIC_per_tissue_Dorsolateral_Prefrontal_Cortex_hg38
+    description: Fill me in please!
+    driver: csv
+    metadata:
+      citation:
+        citation: Fill me in please!
+        first_author_lastname: Fill me in please!
+        journal: Fill me in please!
+        link: Fill me in please!
+        paper_name: Fill me in please!
+        published_year: Fill me in please!
+    name: PCHIC_per_tissue_Dorsolateral_Prefrontal_Cortex_hg38
+    parameters: {}
+  PCHIC_per_tissue_Hippocampus_hg38:
+    args:
+      csv_kwargs: *id001
+      urlpath: /Users/ahoang/Documents/Work/webapp/HIC_database/hg38/PCHIC_per_tissue_Hippocampus_hg38
+    description: Fill me in please!
+    driver: csv
+    metadata:
+      citation:
+        citation: Fill me in please!
+        first_author_lastname: Fill me in please!
+        journal: Fill me in please!
+        link: Fill me in please!
+        paper_name: Fill me in please!
+        published_year: Fill me in please!
+    name: PCHIC_per_tissue_Hippocampus_hg38
+    parameters: {}
+  PCHIC_per_tissue_Neural_Progenitor_Cell_hg38:
+    args:
+      csv_kwargs: *id001
+      urlpath: /Users/ahoang/Documents/Work/webapp/HIC_database/hg38/PCHIC_per_tissue_Neural_Progenitor_Cell_hg38
+    description: Fill me in please!
+    driver: csv
+    metadata:
+      citation:
+        citation: Fill me in please!
+        first_author_lastname: Fill me in please!
+        journal: Fill me in please!
+        link: Fill me in please!
+        paper_name: Fill me in please!
+        published_year: Fill me in please!
+    name: PCHIC_per_tissue_Neural_Progenitor_Cell_hg38
+    parameters: {}
+  PLAC_hg38_microglia:
+    args:
+      csv_kwargs: *id001
+      urlpath: /Users/ahoang/Documents/Work/webapp/HIC_database/hg38/PLAC_hg38_microglia
+    description: Fill me in please!
+    driver: csv
+    metadata:
+      citation:
+        citation: Fill me in please!
+        first_author_lastname: Fill me in please!
+        journal: Fill me in please!
+        link: Fill me in please!
+        paper_name: Fill me in please!
+        published_year: Fill me in please!
+    name: PLAC_hg38_microglia
+    parameters: {}

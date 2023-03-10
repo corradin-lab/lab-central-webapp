@@ -19,7 +19,7 @@ sources:
       link: https://www.biorxiv.org/content/10.1101/2022.11.09.515833v1
     driver: csv
     args: # passed to the open() method
-      urlpath: '{{ CATALOG_DIR }}/../../data/01_raw/peak_lists_to_merge/outside_data/bingren_peak_cell_type_binary.tsv'
+      urlpath:  '{{ CATALOG_DIR }}../01_raw/outside_data/bingren_peak_cell_type_binary_cell_type_id.tsv'
       csv_kwargs:
         sep: "\t"
 
